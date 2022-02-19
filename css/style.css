@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400;700&display=swap');
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/** Main Container **/
+body{
+    background-color: antiquewhite;
+}
+.grid-box{
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    margin: 100px 250px 20px 250px; 
+    width: 900px;
+    height: 500px;
+}
+
+  .column {
+    display: grid;
+  }
+
+  /** Columns **/
+  .sedans{
+      background-color: rgba(226,133,37,255);
+      max-height: 60vh; 
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;  
+  }
+
+  .suvs{
+      background-color: rgba(1,105,114,255);
+      max-height: 60vh;
+  }
+
+  .luxury{
+      background-color: rgba(0,64,63,255);
+      max-height: 60vh;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+
+/** Formating **/
+  .icon{
+      margin: 40px 30px;
+      padding: 10px;
+      opacity: 90%;
+  }
+
+  h1{
+      text-transform: uppercase;
+      color: #fff;
+      font-family: 'Big Shoulders Display';
+      opacity: 90%;
+      margin-bottom: 25px;
+      margin-top: 25px;
+      font-size: 40px;
+  }
+
+  p{
+      color: #fff;
+      font-family: Lexend Deca;
+      font-weight: 400;
+      font-size: 15px;
+      opacity: 70%;
+      line-height: 25px;
+      margin-bottom: 75px;
+  }
+
+.button a{
+    text-decoration: none;
+    border-radius: 30px;
+    border: 100px;
+    opacity: 90%;
+    background-color: #fff;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Lexend Deca'; 
+  }
+
+.button a:hover{
+    border-radius: 30px;
+    border: 100px;
+    opacity: 90%;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Lexend Deca'; 
+}
+
+
+
+/** Footer **/
+.attribution p{
+    color: black;
+}
